@@ -42,13 +42,13 @@ function draw() {
   
   background(bgImg);  
 
-  //if (frameCount%30 === 0) {
-    //snowflakes.push(new Snowflake(random((1,300)), random((1,300))));
-  //}
+  if (frameCount%30 === 0) {
+    snowflakes.push(new Snowflake(random((1,300)), random((1,300))));
+  }
 
-  //for (var i = 0; i < snowflakes.length; i++) {
-    //snowflakes[i].display();
-  //} 
+  for (var i = 0; i < snowflakes.length; i++) {
+    snowflakes[i].display();
+  } 
 
 
   snowflake.display();
