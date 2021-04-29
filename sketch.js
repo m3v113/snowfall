@@ -37,6 +37,9 @@ function setup() {
 }
 
 function draw() {
+  
+  Engine.update(engine);
+  
   background(bgImg);  
 
   //if (frameCount%30 === 0) {
